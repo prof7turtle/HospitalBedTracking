@@ -6,16 +6,6 @@ style="font-variant:small-caps;">USER</span>](https://docs.google.com/document/d
 
 <img src="./media/image1.jpeg" width="468" height="326" />
 
-**Created by:**
-
-*Aviral Sharma*
-
-*Abhinav Kamboj*
-
-*Aditya Koul*
-
-*Abhishek Kumar Tamoli*
-
 **Introduction**
 ================
 
