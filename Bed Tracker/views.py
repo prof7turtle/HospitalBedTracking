@@ -44,6 +44,7 @@ def nurse_home(request):
     # print(hosp.hospital_id)
     # print('The hospital name is ')
     # print(hosp.hospital_name)
+    # name (hosp.hospital_name)
     # name = hosp.hospital_name
     return render(request, 'eBedTrack/nurse_home.html',
     {'eBedTrack': nurse_home,'hosp_name':name})
@@ -126,7 +127,7 @@ def bed_count(request):
 
 
 def eBedTrack_administrator(request):
-    # ...
+    
 
     # Return a "created" (201) response code.
     return HttpResponse(status=201)
@@ -651,3 +652,6 @@ def nurse_edit(request, pk):
        # print("else")
        form = NurseForm(instance = nurse)
    return render(request, 'eBedTrack/nurse_edit.html', {'form': form})
+
+
+# This Django Program is Contributed by prof7turtle(harshil7)
